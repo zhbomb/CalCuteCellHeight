@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C58E8B8C1C3B549F00980B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E8B8B1C3B549F00980B9A /* main.m */; };
+		C58E8B8F1C3B549F00980B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E8B8E1C3B549F00980B9A /* AppDelegate.m */; };
+		C58E8B921C3B54A000980B9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E8B911C3B54A000980B9A /* ViewController.m */; };
+		C58E8B951C3B54A000980B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58E8B931C3B54A000980B9A /* Main.storyboard */; };
+		C58E8B981C3B54A000980B9A /* CalcuteCellHeight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C58E8B961C3B54A000980B9A /* CalcuteCellHeight.xcdatamodeld */; };
+		C58E8B9A1C3B54A000980B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58E8B991C3B54A000980B9A /* Assets.xcassets */; };
+		C58E8B9D1C3B54A000980B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58E8B9B1C3B54A000980B9A /* LaunchScreen.storyboard */; };
+		C58E8BA81C3B54A000980B9A /* CalcuteCellHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E8BA71C3B54A000980B9A /* CalcuteCellHeightTests.m */; };
+		C58E8BB31C3B54A000980B9A /* CalcuteCellHeightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E8BB21C3B54A000980B9A /* CalcuteCellHeightUITests.m */; };
+		C58E8BC31C3B569F00980B9A /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E8BC11C3B569F00980B9A /* customCell.m */; };
+		C58E8BC41C3B569F00980B9A /* customCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BC21C3B569F00980B9A /* customCell.xib */; };
+		C58E8BFA1C3B69E000980B9A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BC61C3B69E000980B9A /* 1.jpg */; };
+		C58E8BFB1C3B69E000980B9A /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BC71C3B69E000980B9A /* 2.jpg */; };
+		C58E8BFC1C3B69E000980B9A /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BC81C3B69E000980B9A /* 3.jpg */; };
+		C58E8BFD1C3B69E000980B9A /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BC91C3B69E000980B9A /* 3.png */; };
+		C58E8BFE1C3B69E000980B9A /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BCA1C3B69E000980B9A /* 4.jpg */; };
+		C58E8BFF1C3B69E000980B9A /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BCB1C3B69E000980B9A /* 5.jpg */; };
+		C58E8C001C3B69E000980B9A /* 6-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BCC1C3B69E000980B9A /* 6-1.jpg */; };
+		C58E8C011C3B69E000980B9A /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BCD1C3B69E000980B9A /* 6.jpg */; };
+		C58E8C021C3B69E000980B9A /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BCE1C3B69E000980B9A /* 7.png */; };
+		C58E8C031C3B69E000980B9A /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BCF1C3B69E000980B9A /* 8.jpg */; };
+		C58E8C041C3B69E000980B9A /* C1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BD01C3B69E000980B9A /* C1-1.jpg */; };
+		C58E8C051C3B69E000980B9A /* C1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BD11C3B69E000980B9A /* C1.jpg */; };
+		C58E8C061C3B69E000980B9A /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BD21C3B69E000980B9A /* iphone.jpg */; };
+		C58E8C071C3B69E000980B9A /* iphone1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BD31C3B69E000980B9A /* iphone1.jpg */; };
+		C58E8C081C3B69E000980B9A /* motoTV.png in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BD41C3B69E000980B9A /* motoTV.png */; };
+		C58E8C091C3B69E000980B9A /* NEW-A380.png in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BD51C3B69E000980B9A /* NEW-A380.png */; };
+		C58E8C0A1C3B69E000980B9A /* T1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BD61C3B69E000980B9A /* T1.jpg */; };
+		C58E8C0B1C3B69E000980B9A /* T2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BD71C3B69E000980B9A /* T2.jpg */; };
+		C58E8C0C1C3B69E000980B9A /* T3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BD81C3B69E000980B9A /* T3.jpg */; };
+		C58E8C0D1C3B69E000980B9A /* T4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BD91C3B69E000980B9A /* T4.jpg */; };
+		C58E8C0E1C3B69E000980B9A /* T5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BDA1C3B69E000980B9A /* T5.jpg */; };
+		C58E8C0F1C3B69E000980B9A /* T6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BDB1C3B69E000980B9A /* T6.jpg */; };
+		C58E8C101C3B69E000980B9A /* 书籍.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BDC1C3B69E000980B9A /* 书籍.jpg */; };
+		C58E8C111C3B69E000980B9A /* 单车.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BDD1C3B69E000980B9A /* 单车.jpg */; };
+		C58E8C121C3B69E000980B9A /* 吉他.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BDE1C3B69E000980B9A /* 吉他.jpg */; };
+		C58E8C131C3B69E000980B9A /* 吊坠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BDF1C3B69E000980B9A /* 吊坠.jpg */; };
+		C58E8C141C3B69E000980B9A /* 女童装.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BE01C3B69E000980B9A /* 女童装.jpg */; };
+		C58E8C151C3B69E000980B9A /* 奶粉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BE11C3B69E000980B9A /* 奶粉.jpg */; };
+		C58E8C161C3B69E000980B9A /* 家教机.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BE21C3B69E000980B9A /* 家教机.jpg */; };
+		C58E8C171C3B69E000980B9A /* 小马.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BE31C3B69E000980B9A /* 小马.jpg */; };
+		C58E8C181C3B69E000980B9A /* 手机.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BE41C3B69E000980B9A /* 手机.jpg */; };
+		C58E8C191C3B69E000980B9A /* 手环.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BE51C3B69E000980B9A /* 手环.jpg */; };
+		C58E8C1A1C3B69E000980B9A /* 手链.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BE61C3B69E000980B9A /* 手链.jpg */; };
+		C58E8C1B1C3B69E000980B9A /* 接口.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BE71C3B69E000980B9A /* 接口.jpg */; };
+		C58E8C1C1C3B69E000980B9A /* 摆件.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BE81C3B69E000980B9A /* 摆件.jpg */; };
+		C58E8C1D1C3B69E000980B9A /* 显示器.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BE91C3B69E000980B9A /* 显示器.jpg */; };
+		C58E8C1E1C3B69E000980B9A /* 灯.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BEA1C3B69E000980B9A /* 灯.jpg */; };
+		C58E8C1F1C3B69E000980B9A /* 热水器.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BEB1C3B69E000980B9A /* 热水器.jpg */; };
+		C58E8C201C3B69E000980B9A /* 电视.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BEC1C3B69E000980B9A /* 电视.jpg */; };
+		C58E8C211C3B69E000980B9A /* 电饭锅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BED1C3B69E000980B9A /* 电饭锅.jpg */; };
+		C58E8C221C3B69E000980B9A /* 空调.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BEE1C3B69E000980B9A /* 空调.jpg */; };
+		C58E8C231C3B69E000980B9A /* 童车.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BEF1C3B69E000980B9A /* 童车.jpg */; };
+		C58E8C241C3B69E000980B9A /* 笔记本.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BF01C3B69E000980B9A /* 笔记本.jpg */; };
+		C58E8C251C3B69E000980B9A /* 红酒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BF11C3B69E000980B9A /* 红酒.jpg */; };
+		C58E8C261C3B69E000980B9A /* 茶叶罐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BF21C3B69E000980B9A /* 茶叶罐.jpg */; };
+		C58E8C271C3B69E000980B9A /* 蓝牙耳机.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BF31C3B69E000980B9A /* 蓝牙耳机.jpg */; };
+		C58E8C281C3B69E000980B9A /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BF41C3B69E000980B9A /* 0.jpg */; };
+		C58E8C291C3B69E000980B9A /* 酒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BF51C3B69E000980B9A /* 酒.jpg */; };
+		C58E8C2A1C3B69E000980B9A /* 酒1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BF61C3B69E000980B9A /* 酒1.jpg */; };
+		C58E8C2B1C3B69E000980B9A /* 钱币.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BF71C3B69E000980B9A /* 钱币.jpg */; };
+		C58E8C2C1C3B69E000980B9A /* 钻戒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BF81C3B69E000980B9A /* 钻戒.jpg */; };
+		C58E8C2D1C3B69E000980B9A /* 魅族.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58E8BF91C3B69E000980B9A /* 魅族.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C58E8BA41C3B54A000980B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58E8B7F1C3B549F00980B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C58E8B861C3B549F00980B9A;
+			remoteInfo = CalcuteCellHeight;
+		};
+		C58E8BAF1C3B54A000980B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58E8B7F1C3B549F00980B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C58E8B861C3B549F00980B9A;
+			remoteInfo = CalcuteCellHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C58E8B871C3B549F00980B9A /* CalcuteCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcuteCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58E8B8B1C3B549F00980B9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C58E8B8D1C3B549F00980B9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C58E8B8E1C3B549F00980B9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C58E8B901C3B54A000980B9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C58E8B911C3B54A000980B9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C58E8B941C3B54A000980B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C58E8B971C3B54A000980B9A /* CalcuteCellHeight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalcuteCellHeight.xcdatamodel; sourceTree = "<group>"; };
+		C58E8B991C3B54A000980B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C58E8B9C1C3B54A000980B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C58E8B9E1C3B54A000980B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58E8BA31C3B54A000980B9A /* CalcuteCellHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcuteCellHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58E8BA71C3B54A000980B9A /* CalcuteCellHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcuteCellHeightTests.m; sourceTree = "<group>"; };
+		C58E8BA91C3B54A000980B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58E8BAE1C3B54A000980B9A /* CalcuteCellHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcuteCellHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58E8BB21C3B54A000980B9A /* CalcuteCellHeightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcuteCellHeightUITests.m; sourceTree = "<group>"; };
+		C58E8BB41C3B54A000980B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58E8BC01C3B569F00980B9A /* customCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
+		C58E8BC11C3B569F00980B9A /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
+		C58E8BC21C3B569F00980B9A /* customCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customCell.xib; sourceTree = "<group>"; };
+		C58E8BC61C3B69E000980B9A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		C58E8BC71C3B69E000980B9A /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		C58E8BC81C3B69E000980B9A /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		C58E8BC91C3B69E000980B9A /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		C58E8BCA1C3B69E000980B9A /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		C58E8BCB1C3B69E000980B9A /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		C58E8BCC1C3B69E000980B9A /* 6-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6-1.jpg"; sourceTree = "<group>"; };
+		C58E8BCD1C3B69E000980B9A /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		C58E8BCE1C3B69E000980B9A /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		C58E8BCF1C3B69E000980B9A /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		C58E8BD01C3B69E000980B9A /* C1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "C1-1.jpg"; sourceTree = "<group>"; };
+		C58E8BD11C3B69E000980B9A /* C1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C1.jpg; sourceTree = "<group>"; };
+		C58E8BD21C3B69E000980B9A /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone.jpg; sourceTree = "<group>"; };
+		C58E8BD31C3B69E000980B9A /* iphone1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone1.jpg; sourceTree = "<group>"; };
+		C58E8BD41C3B69E000980B9A /* motoTV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = motoTV.png; sourceTree = "<group>"; };
+		C58E8BD51C3B69E000980B9A /* NEW-A380.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NEW-A380.png"; sourceTree = "<group>"; };
+		C58E8BD61C3B69E000980B9A /* T1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = T1.jpg; sourceTree = "<group>"; };
+		C58E8BD71C3B69E000980B9A /* T2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = T2.jpg; sourceTree = "<group>"; };
+		C58E8BD81C3B69E000980B9A /* T3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = T3.jpg; sourceTree = "<group>"; };
+		C58E8BD91C3B69E000980B9A /* T4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = T4.jpg; sourceTree = "<group>"; };
+		C58E8BDA1C3B69E000980B9A /* T5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = T5.jpg; sourceTree = "<group>"; };
+		C58E8BDB1C3B69E000980B9A /* T6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = T6.jpg; sourceTree = "<group>"; };
+		C58E8BDC1C3B69E000980B9A /* 书籍.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "书籍.jpg"; sourceTree = "<group>"; };
+		C58E8BDD1C3B69E000980B9A /* 单车.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "单车.jpg"; sourceTree = "<group>"; };
+		C58E8BDE1C3B69E000980B9A /* 吉他.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "吉他.jpg"; sourceTree = "<group>"; };
+		C58E8BDF1C3B69E000980B9A /* 吊坠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "吊坠.jpg"; sourceTree = "<group>"; };
+		C58E8BE01C3B69E000980B9A /* 女童装.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "女童装.jpg"; sourceTree = "<group>"; };
+		C58E8BE11C3B69E000980B9A /* 奶粉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "奶粉.jpg"; sourceTree = "<group>"; };
+		C58E8BE21C3B69E000980B9A /* 家教机.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "家教机.jpg"; sourceTree = "<group>"; };
+		C58E8BE31C3B69E000980B9A /* 小马.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小马.jpg"; sourceTree = "<group>"; };
+		C58E8BE41C3B69E000980B9A /* 手机.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "手机.jpg"; sourceTree = "<group>"; };
+		C58E8BE51C3B69E000980B9A /* 手环.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "手环.jpg"; sourceTree = "<group>"; };
+		C58E8BE61C3B69E000980B9A /* 手链.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "手链.jpg"; sourceTree = "<group>"; };
+		C58E8BE71C3B69E000980B9A /* 接口.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "接口.jpg"; sourceTree = "<group>"; };
+		C58E8BE81C3B69E000980B9A /* 摆件.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "摆件.jpg"; sourceTree = "<group>"; };
+		C58E8BE91C3B69E000980B9A /* 显示器.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "显示器.jpg"; sourceTree = "<group>"; };
+		C58E8BEA1C3B69E000980B9A /* 灯.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "灯.jpg"; sourceTree = "<group>"; };
+		C58E8BEB1C3B69E000980B9A /* 热水器.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "热水器.jpg"; sourceTree = "<group>"; };
+		C58E8BEC1C3B69E000980B9A /* 电视.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "电视.jpg"; sourceTree = "<group>"; };
+		C58E8BED1C3B69E000980B9A /* 电饭锅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "电饭锅.jpg"; sourceTree = "<group>"; };
+		C58E8BEE1C3B69E000980B9A /* 空调.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "空调.jpg"; sourceTree = "<group>"; };
+		C58E8BEF1C3B69E000980B9A /* 童车.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "童车.jpg"; sourceTree = "<group>"; };
+		C58E8BF01C3B69E000980B9A /* 笔记本.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "笔记本.jpg"; sourceTree = "<group>"; };
+		C58E8BF11C3B69E000980B9A /* 红酒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "红酒.jpg"; sourceTree = "<group>"; };
+		C58E8BF21C3B69E000980B9A /* 茶叶罐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "茶叶罐.jpg"; sourceTree = "<group>"; };
+		C58E8BF31C3B69E000980B9A /* 蓝牙耳机.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蓝牙耳机.jpg"; sourceTree = "<group>"; };
+		C58E8BF41C3B69E000980B9A /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		C58E8BF51C3B69E000980B9A /* 酒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "酒.jpg"; sourceTree = "<group>"; };
+		C58E8BF61C3B69E000980B9A /* 酒1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "酒1.jpg"; sourceTree = "<group>"; };
+		C58E8BF71C3B69E000980B9A /* 钱币.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "钱币.jpg"; sourceTree = "<group>"; };
+		C58E8BF81C3B69E000980B9A /* 钻戒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "钻戒.jpg"; sourceTree = "<group>"; };
+		C58E8BF91C3B69E000980B9A /* 魅族.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "魅族.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C58E8B841C3B549F00980B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58E8BA01C3B54A000980B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58E8BAB1C3B54A000980B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C58E8B7E1C3B549F00980B9A = {
+			isa = PBXGroup;
+			children = (
+				C58E8B891C3B549F00980B9A /* CalcuteCellHeight */,
+				C58E8BA61C3B54A000980B9A /* CalcuteCellHeightTests */,
+				C58E8BB11C3B54A000980B9A /* CalcuteCellHeightUITests */,
+				C58E8B881C3B549F00980B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C58E8B881C3B549F00980B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C58E8B871C3B549F00980B9A /* CalcuteCellHeight.app */,
+				C58E8BA31C3B54A000980B9A /* CalcuteCellHeightTests.xctest */,
+				C58E8BAE1C3B54A000980B9A /* CalcuteCellHeightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C58E8B891C3B549F00980B9A /* CalcuteCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				C58E8BC51C3B69E000980B9A /* Image */,
+				C58E8B8D1C3B549F00980B9A /* AppDelegate.h */,
+				C58E8B8E1C3B549F00980B9A /* AppDelegate.m */,
+				C58E8B901C3B54A000980B9A /* ViewController.h */,
+				C58E8B911C3B54A000980B9A /* ViewController.m */,
+				C58E8B931C3B54A000980B9A /* Main.storyboard */,
+				C58E8B991C3B54A000980B9A /* Assets.xcassets */,
+				C58E8B9B1C3B54A000980B9A /* LaunchScreen.storyboard */,
+				C58E8B9E1C3B54A000980B9A /* Info.plist */,
+				C58E8B961C3B54A000980B9A /* CalcuteCellHeight.xcdatamodeld */,
+				C58E8B8A1C3B549F00980B9A /* Supporting Files */,
+				C58E8BC01C3B569F00980B9A /* customCell.h */,
+				C58E8BC11C3B569F00980B9A /* customCell.m */,
+				C58E8BC21C3B569F00980B9A /* customCell.xib */,
+			);
+			path = CalcuteCellHeight;
+			sourceTree = "<group>";
+		};
+		C58E8B8A1C3B549F00980B9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C58E8B8B1C3B549F00980B9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C58E8BA61C3B54A000980B9A /* CalcuteCellHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				C58E8BA71C3B54A000980B9A /* CalcuteCellHeightTests.m */,
+				C58E8BA91C3B54A000980B9A /* Info.plist */,
+			);
+			path = CalcuteCellHeightTests;
+			sourceTree = "<group>";
+		};
+		C58E8BB11C3B54A000980B9A /* CalcuteCellHeightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C58E8BB21C3B54A000980B9A /* CalcuteCellHeightUITests.m */,
+				C58E8BB41C3B54A000980B9A /* Info.plist */,
+			);
+			path = CalcuteCellHeightUITests;
+			sourceTree = "<group>";
+		};
+		C58E8BC51C3B69E000980B9A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C58E8BC61C3B69E000980B9A /* 1.jpg */,
+				C58E8BC71C3B69E000980B9A /* 2.jpg */,
+				C58E8BC81C3B69E000980B9A /* 3.jpg */,
+				C58E8BC91C3B69E000980B9A /* 3.png */,
+				C58E8BCA1C3B69E000980B9A /* 4.jpg */,
+				C58E8BCB1C3B69E000980B9A /* 5.jpg */,
+				C58E8BCC1C3B69E000980B9A /* 6-1.jpg */,
+				C58E8BCD1C3B69E000980B9A /* 6.jpg */,
+				C58E8BCE1C3B69E000980B9A /* 7.png */,
+				C58E8BCF1C3B69E000980B9A /* 8.jpg */,
+				C58E8BD01C3B69E000980B9A /* C1-1.jpg */,
+				C58E8BD11C3B69E000980B9A /* C1.jpg */,
+				C58E8BD21C3B69E000980B9A /* iphone.jpg */,
+				C58E8BD31C3B69E000980B9A /* iphone1.jpg */,
+				C58E8BD41C3B69E000980B9A /* motoTV.png */,
+				C58E8BD51C3B69E000980B9A /* NEW-A380.png */,
+				C58E8BD61C3B69E000980B9A /* T1.jpg */,
+				C58E8BD71C3B69E000980B9A /* T2.jpg */,
+				C58E8BD81C3B69E000980B9A /* T3.jpg */,
+				C58E8BD91C3B69E000980B9A /* T4.jpg */,
+				C58E8BDA1C3B69E000980B9A /* T5.jpg */,
+				C58E8BDB1C3B69E000980B9A /* T6.jpg */,
+				C58E8BDC1C3B69E000980B9A /* 书籍.jpg */,
+				C58E8BDD1C3B69E000980B9A /* 单车.jpg */,
+				C58E8BDE1C3B69E000980B9A /* 吉他.jpg */,
+				C58E8BDF1C3B69E000980B9A /* 吊坠.jpg */,
+				C58E8BE01C3B69E000980B9A /* 女童装.jpg */,
+				C58E8BE11C3B69E000980B9A /* 奶粉.jpg */,
+				C58E8BE21C3B69E000980B9A /* 家教机.jpg */,
+				C58E8BE31C3B69E000980B9A /* 小马.jpg */,
+				C58E8BE41C3B69E000980B9A /* 手机.jpg */,
+				C58E8BE51C3B69E000980B9A /* 手环.jpg */,
+				C58E8BE61C3B69E000980B9A /* 手链.jpg */,
+				C58E8BE71C3B69E000980B9A /* 接口.jpg */,
+				C58E8BE81C3B69E000980B9A /* 摆件.jpg */,
+				C58E8BE91C3B69E000980B9A /* 显示器.jpg */,
+				C58E8BEA1C3B69E000980B9A /* 灯.jpg */,
+				C58E8BEB1C3B69E000980B9A /* 热水器.jpg */,
+				C58E8BEC1C3B69E000980B9A /* 电视.jpg */,
+				C58E8BED1C3B69E000980B9A /* 电饭锅.jpg */,
+				C58E8BEE1C3B69E000980B9A /* 空调.jpg */,
+				C58E8BEF1C3B69E000980B9A /* 童车.jpg */,
+				C58E8BF01C3B69E000980B9A /* 笔记本.jpg */,
+				C58E8BF11C3B69E000980B9A /* 红酒.jpg */,
+				C58E8BF21C3B69E000980B9A /* 茶叶罐.jpg */,
+				C58E8BF31C3B69E000980B9A /* 蓝牙耳机.jpg */,
+				C58E8BF41C3B69E000980B9A /* 0.jpg */,
+				C58E8BF51C3B69E000980B9A /* 酒.jpg */,
+				C58E8BF61C3B69E000980B9A /* 酒1.jpg */,
+				C58E8BF71C3B69E000980B9A /* 钱币.jpg */,
+				C58E8BF81C3B69E000980B9A /* 钻戒.jpg */,
+				C58E8BF91C3B69E000980B9A /* 魅族.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C58E8B861C3B549F00980B9A /* CalcuteCellHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58E8BB71C3B54A000980B9A /* Build configuration list for PBXNativeTarget "CalcuteCellHeight" */;
+			buildPhases = (
+				C58E8B831C3B549F00980B9A /* Sources */,
+				C58E8B841C3B549F00980B9A /* Frameworks */,
+				C58E8B851C3B549F00980B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalcuteCellHeight;
+			productName = CalcuteCellHeight;
+			productReference = C58E8B871C3B549F00980B9A /* CalcuteCellHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C58E8BA21C3B54A000980B9A /* CalcuteCellHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58E8BBA1C3B54A000980B9A /* Build configuration list for PBXNativeTarget "CalcuteCellHeightTests" */;
+			buildPhases = (
+				C58E8B9F1C3B54A000980B9A /* Sources */,
+				C58E8BA01C3B54A000980B9A /* Frameworks */,
+				C58E8BA11C3B54A000980B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C58E8BA51C3B54A000980B9A /* PBXTargetDependency */,
+			);
+			name = CalcuteCellHeightTests;
+			productName = CalcuteCellHeightTests;
+			productReference = C58E8BA31C3B54A000980B9A /* CalcuteCellHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C58E8BAD1C3B54A000980B9A /* CalcuteCellHeightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58E8BBD1C3B54A000980B9A /* Build configuration list for PBXNativeTarget "CalcuteCellHeightUITests" */;
+			buildPhases = (
+				C58E8BAA1C3B54A000980B9A /* Sources */,
+				C58E8BAB1C3B54A000980B9A /* Frameworks */,
+				C58E8BAC1C3B54A000980B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C58E8BB01C3B54A000980B9A /* PBXTargetDependency */,
+			);
+			name = CalcuteCellHeightUITests;
+			productName = CalcuteCellHeightUITests;
+			productReference = C58E8BAE1C3B54A000980B9A /* CalcuteCellHeightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C58E8B7F1C3B549F00980B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bomb;
+				TargetAttributes = {
+					C58E8B861C3B549F00980B9A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C58E8BA21C3B54A000980B9A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C58E8B861C3B549F00980B9A;
+					};
+					C58E8BAD1C3B54A000980B9A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C58E8B861C3B549F00980B9A;
+					};
+				};
+			};
+			buildConfigurationList = C58E8B821C3B549F00980B9A /* Build configuration list for PBXProject "CalcuteCellHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C58E8B7E1C3B549F00980B9A;
+			productRefGroup = C58E8B881C3B549F00980B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C58E8B861C3B549F00980B9A /* CalcuteCellHeight */,
+				C58E8BA21C3B54A000980B9A /* CalcuteCellHeightTests */,
+				C58E8BAD1C3B54A000980B9A /* CalcuteCellHeightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C58E8B851C3B549F00980B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58E8C181C3B69E000980B9A /* 手机.jpg in Resources */,
+				C58E8C0E1C3B69E000980B9A /* T5.jpg in Resources */,
+				C58E8C261C3B69E000980B9A /* 茶叶罐.jpg in Resources */,
+				C58E8BFB1C3B69E000980B9A /* 2.jpg in Resources */,
+				C58E8C1F1C3B69E000980B9A /* 热水器.jpg in Resources */,
+				C58E8C021C3B69E000980B9A /* 7.png in Resources */,
+				C58E8C041C3B69E000980B9A /* C1-1.jpg in Resources */,
+				C58E8BFF1C3B69E000980B9A /* 5.jpg in Resources */,
+				C58E8C1D1C3B69E000980B9A /* 显示器.jpg in Resources */,
+				C58E8C131C3B69E000980B9A /* 吊坠.jpg in Resources */,
+				C58E8C251C3B69E000980B9A /* 红酒.jpg in Resources */,
+				C58E8C001C3B69E000980B9A /* 6-1.jpg in Resources */,
+				C58E8C281C3B69E000980B9A /* 0.jpg in Resources */,
+				C58E8C0D1C3B69E000980B9A /* T4.jpg in Resources */,
+				C58E8C0A1C3B69E000980B9A /* T1.jpg in Resources */,
+				C58E8B9D1C3B54A000980B9A /* LaunchScreen.storyboard in Resources */,
+				C58E8B9A1C3B54A000980B9A /* Assets.xcassets in Resources */,
+				C58E8C031C3B69E000980B9A /* 8.jpg in Resources */,
+				C58E8C1C1C3B69E000980B9A /* 摆件.jpg in Resources */,
+				C58E8C1A1C3B69E000980B9A /* 手链.jpg in Resources */,
+				C58E8C211C3B69E000980B9A /* 电饭锅.jpg in Resources */,
+				C58E8BFD1C3B69E000980B9A /* 3.png in Resources */,
+				C58E8C051C3B69E000980B9A /* C1.jpg in Resources */,
+				C58E8C2B1C3B69E000980B9A /* 钱币.jpg in Resources */,
+				C58E8C241C3B69E000980B9A /* 笔记本.jpg in Resources */,
+				C58E8C221C3B69E000980B9A /* 空调.jpg in Resources */,
+				C58E8C0F1C3B69E000980B9A /* T6.jpg in Resources */,
+				C58E8C1B1C3B69E000980B9A /* 接口.jpg in Resources */,
+				C58E8C061C3B69E000980B9A /* iphone.jpg in Resources */,
+				C58E8C011C3B69E000980B9A /* 6.jpg in Resources */,
+				C58E8C111C3B69E000980B9A /* 单车.jpg in Resources */,
+				C58E8C1E1C3B69E000980B9A /* 灯.jpg in Resources */,
+				C58E8C0C1C3B69E000980B9A /* T3.jpg in Resources */,
+				C58E8C2D1C3B69E000980B9A /* 魅族.jpg in Resources */,
+				C58E8C231C3B69E000980B9A /* 童车.jpg in Resources */,
+				C58E8BC41C3B569F00980B9A /* customCell.xib in Resources */,
+				C58E8C291C3B69E000980B9A /* 酒.jpg in Resources */,
+				C58E8C151C3B69E000980B9A /* 奶粉.jpg in Resources */,
+				C58E8C271C3B69E000980B9A /* 蓝牙耳机.jpg in Resources */,
+				C58E8B951C3B54A000980B9A /* Main.storyboard in Resources */,
+				C58E8BFE1C3B69E000980B9A /* 4.jpg in Resources */,
+				C58E8C121C3B69E000980B9A /* 吉他.jpg in Resources */,
+				C58E8C161C3B69E000980B9A /* 家教机.jpg in Resources */,
+				C58E8BFC1C3B69E000980B9A /* 3.jpg in Resources */,
+				C58E8C2A1C3B69E000980B9A /* 酒1.jpg in Resources */,
+				C58E8C191C3B69E000980B9A /* 手环.jpg in Resources */,
+				C58E8C2C1C3B69E000980B9A /* 钻戒.jpg in Resources */,
+				C58E8C0B1C3B69E000980B9A /* T2.jpg in Resources */,
+				C58E8C201C3B69E000980B9A /* 电视.jpg in Resources */,
+				C58E8C071C3B69E000980B9A /* iphone1.jpg in Resources */,
+				C58E8C171C3B69E000980B9A /* 小马.jpg in Resources */,
+				C58E8C081C3B69E000980B9A /* motoTV.png in Resources */,
+				C58E8C141C3B69E000980B9A /* 女童装.jpg in Resources */,
+				C58E8C091C3B69E000980B9A /* NEW-A380.png in Resources */,
+				C58E8C101C3B69E000980B9A /* 书籍.jpg in Resources */,
+				C58E8BFA1C3B69E000980B9A /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58E8BA11C3B54A000980B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58E8BAC1C3B54A000980B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C58E8B831C3B549F00980B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58E8BC31C3B569F00980B9A /* customCell.m in Sources */,
+				C58E8B981C3B54A000980B9A /* CalcuteCellHeight.xcdatamodeld in Sources */,
+				C58E8B921C3B54A000980B9A /* ViewController.m in Sources */,
+				C58E8B8F1C3B549F00980B9A /* AppDelegate.m in Sources */,
+				C58E8B8C1C3B549F00980B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58E8B9F1C3B54A000980B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58E8BA81C3B54A000980B9A /* CalcuteCellHeightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58E8BAA1C3B54A000980B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58E8BB31C3B54A000980B9A /* CalcuteCellHeightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C58E8BA51C3B54A000980B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C58E8B861C3B549F00980B9A /* CalcuteCellHeight */;
+			targetProxy = C58E8BA41C3B54A000980B9A /* PBXContainerItemProxy */;
+		};
+		C58E8BB01C3B54A000980B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C58E8B861C3B549F00980B9A /* CalcuteCellHeight */;
+			targetProxy = C58E8BAF1C3B54A000980B9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C58E8B931C3B54A000980B9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C58E8B941C3B54A000980B9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C58E8B9B1C3B54A000980B9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C58E8B9C1C3B54A000980B9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C58E8BB51C3B54A000980B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C58E8BB61C3B54A000980B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C58E8BB81C3B54A000980B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalcuteCellHeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tan-bomb.CalcuteCellHeight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C58E8BB91C3B54A000980B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalcuteCellHeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tan-bomb.CalcuteCellHeight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C58E8BBB1C3B54A000980B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalcuteCellHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tan-bomb.CalcuteCellHeightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalcuteCellHeight.app/CalcuteCellHeight";
+			};
+			name = Debug;
+		};
+		C58E8BBC1C3B54A000980B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalcuteCellHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tan-bomb.CalcuteCellHeightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalcuteCellHeight.app/CalcuteCellHeight";
+			};
+			name = Release;
+		};
+		C58E8BBE1C3B54A000980B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CalcuteCellHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tan-bomb.CalcuteCellHeightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CalcuteCellHeight;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C58E8BBF1C3B54A000980B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CalcuteCellHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tan-bomb.CalcuteCellHeightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CalcuteCellHeight;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C58E8B821C3B549F00980B9A /* Build configuration list for PBXProject "CalcuteCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58E8BB51C3B54A000980B9A /* Debug */,
+				C58E8BB61C3B54A000980B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58E8BB71C3B54A000980B9A /* Build configuration list for PBXNativeTarget "CalcuteCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58E8BB81C3B54A000980B9A /* Debug */,
+				C58E8BB91C3B54A000980B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C58E8BBA1C3B54A000980B9A /* Build configuration list for PBXNativeTarget "CalcuteCellHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58E8BBB1C3B54A000980B9A /* Debug */,
+				C58E8BBC1C3B54A000980B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C58E8BBD1C3B54A000980B9A /* Build configuration list for PBXNativeTarget "CalcuteCellHeightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58E8BBE1C3B54A000980B9A /* Debug */,
+				C58E8BBF1C3B54A000980B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C58E8B961C3B54A000980B9A /* CalcuteCellHeight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C58E8B971C3B54A000980B9A /* CalcuteCellHeight.xcdatamodel */,
+			);
+			currentVersion = C58E8B971C3B54A000980B9A /* CalcuteCellHeight.xcdatamodel */;
+			path = CalcuteCellHeight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C58E8B7F1C3B549F00980B9A /* Project object */;
+}
